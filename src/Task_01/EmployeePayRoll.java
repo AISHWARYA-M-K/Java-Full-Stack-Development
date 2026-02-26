@@ -1,4 +1,4 @@
-package task_01;
+package Task_01;
 import java.util.Scanner;
 public class EmployeePayRoll {
 	public static void main(String []arg) {

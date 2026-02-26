@@ -1,4 +1,4 @@
-package task_01;
+package Task_01;
 
 public class Type_casting {
 
