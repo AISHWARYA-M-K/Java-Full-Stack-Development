@@ -8,11 +8,11 @@ public class Temperature_Monitoring_System {
 		boolean result = false;
 		
 		
-		if(result == true) {
-			System.out.println("The temperature of the "+city+" City is: high ");
-		}else {
-			System.out.println("The temperature of the "+city+" City is: low ");
-		}
+//		if(result == true) {
+//			System.out.println("The temperature of the "+city+" City is: high ");
+//		}else {
+//			System.out.println("The temperature of the "+city+" City is: low ");
+//		}
 		
 //	------------------------------------another approach---------------------------------------------------------------------------------------------------------------
 		Scanner output = new Scanner(System.in);

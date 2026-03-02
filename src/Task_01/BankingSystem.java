@@ -1,18 +1,27 @@
 package Task_01;
-
+import java.util.Scanner;
 public class BankingSystem {
 	
 	public static void main(String []args) {
+	Scanner op = new Scanner(System.in);
 	
-	String account_holder = "amar";
-	long account_no = 2842394;
-	double balance = 90000.25;
+//	reading input from users
+	System.out.println("Enter the bank account holder name: ");
+	String account_holder = op.nextLine();
+	
+	System.out.println("Enter the account number: ");
+	long account_no = op.nextLong();
+	
+	System.out.println(account_holder+" enter your bank balance please ^_^");
+	double balance = op.nextDouble();
+	
 	boolean Active = true;
 	
+//	checking condition
 	if (balance >= 500){
-		System.out.println(Active);
+		System.out.println("The account is " +Active+ " Is Active");
 	}else {
-		System.out.println(!Active);
+		System.out.println("The account is " + !Active + "Is Not Active");
 	}
 	
 	}
